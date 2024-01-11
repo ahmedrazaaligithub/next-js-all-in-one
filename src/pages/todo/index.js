@@ -63,7 +63,7 @@ setTodo('')
       <div>
         {todos.map((data, index) => {
           return (
-            <div className="flex items-center justify-between my-2  bg-gray-100 p-2 rounded"key={index}>
+            <div className="flex items-center justify-between my-2  bg-gray-100 p-2 rounded" key={index}>
               <div className="mt-1">
                 {data}
               </div>
